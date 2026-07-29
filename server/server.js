@@ -1,5 +1,6 @@
 const express = require("express");
-const { crateServer } = require("http");
+const { createServer } = require("http");
+const { Server } = require('socket.io');
 const app = express();
 
 app.listen(3000,()=>{
